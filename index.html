@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda</title>
+    <!-- css setup -->
+    <link text-dark rel="stylesheet" href="css/style.css">
+
+    <!-- css bootstrap setup -->
+    <link text-dark href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- favicon setup -->
+    <link  rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <!-- preloader gif -->
+  <div id="preloader"></div>
+
+  <!-- header part -->
+    <header>
+        <!-- navbar setup -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a href="#"><img src="./images/logo.png" alt="logopng"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="ms-3 collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#Backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- bennaer setup -->
+          <div id="carouselExampleIndicators" class="carousel slide container " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner margin-Y rounded-3">
+              <div class="carousel-item active carousel-bg p-5 ">
+               <div class="row">
+                   <div class="col-12 col-md-7 d-flex align-items-center">
+                       <div>
+                        <h1 class="fw-bold">Cool Dude Headphone</h1>
+                        <p>
+                            This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                        <h1 class="price">$420</h1>
+                        <button class="button mt-2">Buy Now <span>&#x2192;</span></button>
+                       </div>
+                   </div>
+                   <div class="col-12 col-md-5">
+                    <img src="images/banner-images/headphone.png"  class="d-block w-100"/>
+                   </div>
+               </div>
+              </div> 
+              <div class="carousel-item carousel-bg p-5  ">
+               <div class="row">
+                   <div class="col-12 col-md-7 d-flex align-items-center">
+                       <div>
+                        <h1 class="fw-bold">Mi LED TV 4A PRO 32</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <h1 class="price">$1289</h1>
+                        <button class="button mt-2">Buy Now <span>&#x2192;</span></button>
+                       </div>
+                   </div>
+                   <div class="col-12 col-md-5">
+                    <img src="images/banner-images/tv.png"  class="d-block w-100"/>
+                   </div>
+               </div>
+              </div> 
+              <div class="carousel-item carousel-bg p-5  ">
+               <div class="row">
+                   <div class="col-12 col-md-7 d-flex align-items-center">
+                       <div>
+                        <h1 class="fw-bold">X-Box for your living room</h1>
+                        <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                        <h1 class="price">$589</h1>
+                        <button class="button mt-2">Buy Now <span>&#x2192;</span></button>
+                       </div>
+                   </div>
+                   <div class="col-12 col-md-5">
+                    <img src="images/banner-images/xbox.png"  class="d-block w-100"/>
+                   </div>
+               </div>
+              </div> 
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- catagoris -->
+
+          <div class="container catagoris">
+            <div class="row g-4">
+              <div class="col-12 col-md-4">
+                <div class="px-4 py-3 shadow rounded-3 catagori1 d-flex justify-content-between align-items-center">
+                  <h1>Watch</h1>
+                  <img src="./images/categories/watch.png" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="px-4 py-3 shadow rounded-3 catagori2 d-flex justify-content-between align-items-center">
+                  <h1>Bag</h1>
+                  <img src="./images/categories/bag.png" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="px-4 py-3 shadow rounded-3 catagori3 d-flex justify-content-between align-items-center">
+                  <h1>Shoes</h1>
+                  <img  src="./images/categories/shoes.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+      <section class="container margin-Y">
+        <!-- shoes section -->
+        <div class="row" id="shoes">
+          <h2 class="mb-3">Shoes</h2>
+          <div class="card-group gap-4">
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                <h3 class="price">$120</h3>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h3 class="price">$320</h3>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                <h3 class="price">$350</h3>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- Backpack -->
+
+        <section class="container margin-Y">
+        <div class="row" id="Backpack">
+          <h2 class="mb-3">Backpack</h2>
+          <div class="card-group gap-4">
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Laltu Bag</h5>
+                <h3 class="price">$120</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blue Niltu Bag</h5>
+                <h3 class="price">$320</h3>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+            <div class="card p-4 border-0 shadow rounded">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Kaltu Bag</h5>
+                <h3 class="price">$350</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="">
+                <button class="button">Buy Now >> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe section -->
+      <section class="container margin-Y" id="subscribe">
+        <div class="row carousel-bg py-5">
+          <div class="col-12 col-md-4 m-auto d-flex align-items-center justify-content-center flex-column">
+            <h4>LET'S STAY IN TOUCH</h4>
+            <p>Get updates on sales, specials and more</p>
+            <input class="form-control" type="text" placeholder="Enter your gmail">
+            <button class="button mt-3">Submit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer site -->
+    <footer class="container">
+      <p class="text-center"><small>&copy2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
+
+    <!-- js bootstrap setup -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      window.addEventListener("load" , () =>{
+        const preloader = document.getElementById('preloader');
+        preloader.style.display = "none";
+      })
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    scroll-behavior: smooth;
+}
+.carousel-bg{
+    background: #FEEAE9;
+}
+
+.margin-Y{
+    margin: 100px 0;
+}
+
+.margin-B{
+    margin-bottom: 100px;
+}
+
+.catagoris{
+    color: white;
+}
+
+.catagori1{
+    background: orange;
+}
+
+.catagori2{
+    background: orchid;
+}
+
+.catagori3{
+    background: blue;
+}
+
+.catagori1 img , .catagori2 img , .catagori3 img{
+    width: 100px;
+}
+
+.price{
+    color: #FF136F;
+}
+
+.button{
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+
+.button:hover{
+    letter-spacing: 1px;
+}
+
+/* preloader setup */
+
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    background: #fff url("../images/preloader.gif") no-repeat center;
+    background-size: 40%;
+    position: fixed ;
+    z-index: 1000;
+}
